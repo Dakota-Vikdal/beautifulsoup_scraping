@@ -23,7 +23,7 @@ def highest_to_lowest(input_list):
     ranked_list = sorted(input_list, key=lambda k: k['votes'], reverse = True)
     return ranked_list
 
-# Grab the title, link and vote of each hacker news article with 100 votes or more.
+# Grab the title, link and vote of each Hacker News article with 100 votes or more.
 def my_hacker_news(links, subtext):
     # Create a list you can append high voted articles to.
     hacker_news = []

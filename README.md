@@ -1,1 +1,2 @@
 # beautifulsoup_scraping
+In this data scraping project I grabbed the titles, links, and votes of the articles that have 100 votes or more on the first three pages of the Hacker News website. I did this so Python does the sifting through the articles for me that way I am only shown the high priority articles. I made sure to use the built in pprint module in order to display the articles in a more beautiful and coherent manner.  
